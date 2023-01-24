@@ -74,6 +74,11 @@ div{
    font-size: 60px;
  }
 
+ h2{
+   font-weight: bold;
+   margin-bottom: 40px;
+ }
+
  /* 
  -----------
  HEADER
@@ -200,10 +205,19 @@ div{
 
 
 .col-full{
-    width: 60%;
-    height: 900px;
+    width: 80%;
+    display: block;
+    text-align: center;
 }
 
+.img-full{
+   width: 100%;
+}
+
+.mac{
+   background-color: #7289da;
+   color: white;
+}
 /* 
 -------------
 FOOTER
@@ -228,8 +242,8 @@ FOOTER
     width: calc(100%/6*2)
 }
 hr{
-   height: 2px;
-   background-color: white; 
+   height: 3px;
+   background-color: #4f5d8c; 
     border: none;
 }
 
