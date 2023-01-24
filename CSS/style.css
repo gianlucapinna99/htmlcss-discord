@@ -67,6 +67,7 @@ div{
  h3{
    font-size: 22px;
    line-height: 33px;
+   margin-top: 50px;
  }
 
  h1{
@@ -174,7 +175,6 @@ div{
   */
 
 .main-box{
-   height: 500px; 
    width: 100%;
 }
 
@@ -183,22 +183,23 @@ div{
 }
 
 .col-big{
-    background-color: #1e90ff;
-    width: 70%;
+    width: 60%;
 }
 
 .col-small{
-    background-color: #ffc0cb;
-    width: 30%;
+    width: 40%;
+    display: inline;    
 }
 
+.side-image{
+   padding-right: 130px;
+}
 .grey{
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;;
 }
 
 
 .col-full{
-    background-color: #228b22;
     width: 60%;
     height: 900px;
 }
