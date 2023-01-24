@@ -79,6 +79,13 @@ div{
    margin-bottom: 40px;
  }
 
+ li{
+   list-style: none;
+   line-height: 45px;
+   color: white;
+   font-size: 15px;
+ }
+
  /* 
  -----------
  HEADER
@@ -224,44 +231,56 @@ FOOTER
 ------------- */
 
 .footer-box{
-    padding-top: 10px;
+    padding-top: 82px;
     padding-bottom: 40px;
     height: 580px;
-    width: 100%
 }
 
-.lb-box{
-    background-color: #20b2aa;
-    width: calc(100%/6);
-    border: dashed white;
-    border-width: 2px;
+.main-column{
+   width: 90%;
 }
+.column-footer{
+   display: flex;
+   justify-content: space-around;
+}
+
 
 .r-box{
     background-color: #f08080;
-    width: calc(100%/6*2)
 }
 hr{
-   height: 3px;
+   height: 2px;
    background-color: #4f5d8c; 
     border: none;
+    margin: 0 200px;
 }
 
 .footer-end{
-    padding-top: 30px;
-    height: 113px;
     display: flex;
+    padding: 20px 0 50px 0;
 }
 
-.last-footer{
-   height: 80px; 
-   background-color: #7fffd4;
-   width: 60%;
+.last-footer{ 
+   width: 100%;
    justify-content: space-between;
    align-items: center;
+   margin: 0 200px 0 200px;
 }
 
-.f-logo, .f-button{
-    background-color: #ffb6c1;
-    padding: 5px;
+.r-box h2{
+   color: white;
+}
+
+.f-title{
+   color: #7289da;
+   font-size: 18px;
+}
+
+.lb-box li{
+   margin-right: 155px;
+   margin-left: 65px;
+}
+
+.h-title{
+   color: #7289da;
 }
