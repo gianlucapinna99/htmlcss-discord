@@ -244,10 +244,6 @@ FOOTER
    justify-content: space-around;
 }
 
-
-.r-box{
-    background-color: #f08080;
-}
 hr{
    height: 2px;
    background-color: #4f5d8c; 
@@ -281,6 +277,33 @@ hr{
    margin-left: 65px;
 }
 
-.h-title{
+.r-box{
+   display: block;
+}
+.footer-title{
    color: #7289da;
+   margin-bottom: 20px;
+}
+
+.ita, .language{
+   height: 20px;
+   display: inline-block;
+   margin-right: 5px;
+   margin-bottom: 5px;
+}
+
+div i{
+   color: white;
+   margin: 20px 14px;
+   size: ;
+}
+
+.icons{
+   display: flex;
+   justify-content: flex-start;
+   font-size: 25px;
+}
+
+.tw{
+ margin-left: 0px;
 }
