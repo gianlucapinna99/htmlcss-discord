@@ -194,17 +194,13 @@ div{
     width: 60%;
 }
 
-.col-big{
-    width: 60%;
-}
 
 .col-small{
-    width: 40%;
     display: inline;    
 }
 
 .side-image{
-   padding-right: 130px;
+   padding-right: 200px;
 }
 .grey{
     background-color: #f6f6f6;;
@@ -304,6 +300,6 @@ div i{
    font-size: 25px;
 }
 
-.tw{
+.fa-twitter{
  margin-left: 0px;
 }
